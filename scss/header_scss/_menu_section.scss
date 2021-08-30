@@ -1,0 +1,83 @@
+.header_bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../images/bg.jpg');
+    height: 100vh;
+    .header_top_br{
+        padding-top: 50px;
+        .main_menu{
+            ul{
+                list-style: none;
+                li{
+                    margin: 0 30px;
+                    display: inline-block;
+                    margin-top: 10px;
+                    a{
+                        display: inline-block;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 16px;
+                        font-weight: 500;
+                        &:hover{
+                            color: #d82a4e;
+
+                        }
+                        
+                    }
+                }
+            }
+        }
+        .header_btn{
+            .all_btn{
+                padding: 0px 80px;
+            }
+        }
+    }
+    .header_banner{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+        text-align: center;
+        margin: auto;
+        width: 1200px;
+        color: #fff;
+        h2{
+            font-size: 60px;
+            margin-bottom: 20px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        p{
+            color: #fff;
+            width: 960px;
+            margin: auto;
+            line-height: 2.2;
+            letter-spacing: 1px;
+            margin-bottom: 100px;
+        }
+        .input_row{
+            .header_single_input{
+                input{
+                    box-shadow: none;
+                    border: none;
+                    background: #edf4f6;
+                    height: 56px;
+                    padding: 0 30px;
+                    font-size: 14px;
+                    border-radius: 0px;
+                    &::placeholder{
+                        color: #878787;
+                    }
+                }
+                .header_btn{
+                    .all_btn{
+                        padding: 0px 50px;
+                    }
+                }
+            }
+        }
+    }
+}

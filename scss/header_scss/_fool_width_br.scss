@@ -1,0 +1,64 @@
+.ful_width_bar{
+    overflow: hidden;
+    .left_bar{
+        background-color: #d82a4e;
+        padding: 102px 100px;
+        width: 50%;
+        float: left;
+        .ful_width_text{
+            h2{
+                margin-bottom: 28px;
+                font-size: 48px;
+                font-weight: 600;
+                color: #fff;
+            }
+            p{
+                color: #fff;
+                margin-bottom: 50px;
+            }
+        }
+        .ful_from_box{
+            background-color: #fff;
+            padding: 50px 60px;
+            input{
+                outline: none;
+                box-shadow: none;
+                margin-bottom: 25px;
+                font-size: 14px;
+                padding: 0px 30px;
+                height: 55px;
+                background-color: #edf4f6;
+                border: none;
+                border-radius: 0px;
+                &:focus{
+                    border-bottom: 2px solid #d82a4e;
+                }
+                &::placeholder{
+                    text-transform: capitalize;
+                    font-weight: 500;
+                }
+            }
+            .bt_ful_box{
+                .all_btn{
+                    &:nth-child(1){
+                        display: block;
+                        margin-bottom: 20px;
+                        font-size: 13px;
+                        background-color: #3e3e3e;
+                        cursor: default;
+                    }
+                }
+            }
+        }
+    }
+    .right_bar{
+        width: 50%;
+        float: right;
+        background-image: url("../images/signup-bg.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 93vh;
+
+    }
+
+}

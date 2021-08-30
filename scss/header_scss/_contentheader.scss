@@ -1,0 +1,20 @@
+.hedline_header{
+    text-align: center;
+    .headline{
+        max-width: 960px;
+        margin: auto;
+        h2{
+            font-size: 48px;
+            color: #474747;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+        p{
+            color: #878787;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 1px;
+        }
+    }
+}

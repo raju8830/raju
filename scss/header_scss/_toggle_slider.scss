@@ -1,0 +1,89 @@
+.beside_part_menu{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    .menu_part{
+        .portfolio-filter{
+            .mixitup-control-active{
+                border-bottom: 2px solid #d82a4e;
+                color: #d82a4e;
+            }
+            button{
+                color: #474747;
+                padding: 12px 10px 5px;
+                font-size: 18px;
+                margin: 0px 10px;
+                text-decoration: none;
+                text-transform: capitalize;
+                display: inline-block;
+                cursor: pointer;
+                border: none;
+                background: none;
+                font-weight: 600;
+                &:focus{
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+    .protfolio_content{
+        margin: auto;
+        margin-top: 80px;
+        max-width: 1559px;
+        .single_box{
+            margin-bottom: 20px;
+            background: #edf4f6;
+            position: relative;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            .single_box_content{
+                padding: 40px 20px;
+                h3{
+                    font-size: 20px;
+                }
+                p{
+                    margin-bottom: 20px;
+                    margin-top: 15px;
+                }
+                span{
+                    color: #d82a4e;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+            .single_box_footer{
+                display: flex;
+                align-items: center;
+                padding: 20px 20px;
+                border-top: 1px solid #ddd;
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    margin-right: 20px;
+                }
+                h5{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #878787;
+                    span{
+                        color: #d82a4e;
+                    }
+                }
+            }
+            .prise_part_btn{
+                position: absolute;
+                left: 10px;
+                top: 10px;
+                content: '';
+                .all_btn{
+                    font-size: 14px;
+                    height: 40px;
+                    padding: 0px 20px;
+                }
+            }
+        }
+    }
+}

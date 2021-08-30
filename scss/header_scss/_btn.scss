@@ -1,0 +1,15 @@
+.all_btn{
+    box-shadow: none;
+    border: none;
+    background: #d82a4e;
+    height: 56px;
+    padding: 0 30px;
+    font-size: 16px;
+    border-radius: 0px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    &:focus{
+        outline: none;
+    }
+}

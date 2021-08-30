@@ -1,0 +1,27 @@
+.box_content{
+    max-width: 1100px;
+    margin: auto;
+    .single_box{
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        .single_box_content{
+            padding: 40px 35px;
+            background: #edf4f6;
+            h3{
+                font-size: 20px;
+            }
+            p{
+                margin-bottom: 20px;
+                margin-top: 15px;
+            }
+            span{
+                color: #d82a4e;
+                font-size: 18px;
+                font-weight: 600;
+            }
+        }
+    }
+}
